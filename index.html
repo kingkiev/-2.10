@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>C2.10</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="container vote-form">
+        <div class="d-flex justify-content-center">
+            <h3 class="m-3">Выберите любимое животное</h3>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="dogs m-3">Собака</button>
+            <button type="button" class="cats m-3">Кошка</button>
+            <button type="button" class="parrots m-3">Попугай</button>
+        </div>
+    </section>
+
+    <section class="container vote-result-message">
+        <div class="d-flex justify-content-center">
+            <h3 class="m-3">Спасибо за голосование</h3>
+        </div>
+        <div class="progress m-3">
+            <div class="progress-bar dogs-res" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="progress m-3">
+            <div class="progress-bar cats-res" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="progress m-3">
+            <div class="progress-bar parrots-res" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </section>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
